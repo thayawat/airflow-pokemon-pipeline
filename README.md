@@ -6,7 +6,7 @@ Run airflow with Docker
 docker-compose -f .\docker-compose.yaml up -d
 ```
 
-Run airflow with with scale airflow-worker
+Run airflow and set airflow-worker
 
 ```sh
 docker-compose -f .\docker-compose.yaml up --scale airflow-worker=3 -d
