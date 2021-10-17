@@ -6,7 +6,7 @@ Run airflow with Docker
 docker-compose -f .\docker-compose.yaml up -d
 ```
 
-Run airflow and set airflow-worker
+Run airflow and set airflow-worker quantity
 
 ```sh
 docker-compose -f .\docker-compose.yaml up --scale airflow-worker=3 -d
@@ -15,7 +15,7 @@ docker-compose -f .\docker-compose.yaml up --scale airflow-worker=3 -d
 Remove airflow from docker process 
 
 ```sh
-docker-compose -f .\docker-compose.yaml up down
+docker-compose -f .\docker-compose.yaml down
 ```
 
 Airflow URL
